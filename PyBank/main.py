@@ -91,5 +91,9 @@ with open(outputFile, "w") as textFile:
     textFile.write(all_outputs)
 
 
+    print(all_outputs)
+    
+
+
 
 
