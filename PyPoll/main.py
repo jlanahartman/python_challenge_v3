@@ -75,6 +75,8 @@ with open(outputFile, "w") as textFile:
     f"\n -------------------------- \n"
     )
 
+    print(output)
+
     textFile.write(output)
     
     for candidate in candidateList:
@@ -94,6 +96,9 @@ with open(outputFile, "w") as textFile:
     textFile.write(electionWinnerOutput)
 
     print(electionWinnerOutput)
+
+    
+
 
 
 
